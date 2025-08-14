@@ -49,7 +49,7 @@ async function sendMessage() {
   input.value = "";
 
   try {
-    const res = await fetch("https://YOUR-RENDER-URL/api/chat", { // CHANGE THIS
+    const res = await fetch("https://iqzhykaypfubroyhuanf.supabase.co", { // CHANGE THIS
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ text, uid: "test-user" })
